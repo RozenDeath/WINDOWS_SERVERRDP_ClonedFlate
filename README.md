@@ -1,4 +1,3 @@
-# NT. Hải
-My new Gitlab Repository for code and files about VPS (Fuck Github)
+# EDUCA. TECH
+My new Gitlab Repository for code and files FOR EDUCATIONAL PUROSE ONLY
 
-Youtube Channel: https://www.youtube.com/channel/UCi80Ipndm3QovIn5XisUz3g

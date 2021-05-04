@@ -16,7 +16,7 @@ printf '\nVisit https://dashboard.ngrok.com/get-started/setup and Copy the autht
 read -p "Paste authtoken here (Copy and Right-click to paste): " CRP
 printf '\nDownloading NGROK... \n'
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && unzip *.zip
-wget https://raw.githubusercontent.com/docefio/Windows2019RDP-Azure/main/ngrok-choice-linux.sh
+wget https://raw.githubusercontent.com/Fiate/WINDOWSRDP/main/ngrok-choice-linux.sh
 ./ngrok authtoken $CRP
 clear
 chmod +x ngrok-choice-linux.sh

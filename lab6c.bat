@@ -5,8 +5,8 @@ Reg Add "HKCU\SOFTWARE\Microsoft\Windows\DWM" /v ColorPrevalence /t REG_DWORD /d
 Reg Add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v ColorPrevalence /t REG_DWORD /d 1 /f
 certutil -urlcache -split -f https://raw.githubusercontent.com/Fiate/WINDOWSRDP/main/curl.exe
 certutil -urlcache -split -f https://raw.githubusercontent.com/Fiate/WINDOWSRDP/main/7z.dll
-certutil -urlcache -split -f https://gitlab.com/haithuongpro2711/haivps/-/raw/master/7z.exe
-certutil -urlcache -split -f https://gitlab.com/haithuongpro2711/haivps/-/raw/master/nircmd.exe
+certutil -urlcache -split -f https://raw.githubusercontent.com/Fiate/WINDOWSRDP/main/7z.exe
+certutil -urlcache -split -f https://raw.githubusercontent.com/Fiate/WINDOWSRDP/main/nircmd.exe
 curl -LJOk https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip
 7z x ngrok-stable-windows-amd64.zip
 ngrok authtoken 1oTgX2a7pxoep0I87U1nc2326gJ_WMecnF3bbm3avgSFWW4m
